@@ -186,9 +186,6 @@ $font-size-7xl: 4rem; /*64px */
 body {
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: 21rem 3fr; /* Adjust the width of the sidebar and the remaining content */
-  overflow: auto;
 }
 
 h1 {
@@ -353,9 +350,6 @@ $font-size-7xl: 4rem; /*64px */
 body {
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: 21rem 3fr; /* Adjust the width of the sidebar and the remaining content */
-  overflow: auto;
 }
 
 h1 {
@@ -426,6 +420,7 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   background: rgb(253, 185, 19);
   background: linear-gradient(90deg, rgba(253, 185, 19, 0.1516981793) 0%, rgba(0, 157, 234, 0.1657037815) 100%);
+  overflow-x: hidden;
 }
 
 #searchInput {
@@ -449,15 +444,20 @@ body {
 
 .sidebar {
   height: 100%;
+  width: 18rem;
   position: fixed;
   background-color: #009dea;
-  padding-top: 20px;
   color: white;
   box-shadow: 5px 5px 10px #888;
 }
 
 .sidebar-nav {
   list-style: none;
+}
+
+.video-content {
+  margin-left: 18rem; /* Adjust the margin to match the width of your sidebar */
+  padding: 20px; /* Add some padding to separate content from the sidebar */
 }
 
 .sidebar-nav li a {
@@ -487,7 +487,8 @@ body {
 
 /* For WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
-  width: 1px; /* Set the width of the scrollbar */
+  width: 8px; /* Set the width of the scrollbar */
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
