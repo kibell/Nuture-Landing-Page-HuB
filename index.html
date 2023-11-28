@@ -1,132 +1,266 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="ROBOTS" content="INDEX,FOLLOW">
-  <meta name="keywords" content="">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Starter Template </title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="ROBOTS" content="INDEX,FOLLOW">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> SNHU Video Library </title>
+    <!-- Add Vidyard specific script for dynamic loading -->
+    <script async src="https://play.vidyard.com/embed/v4.js"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;700&display=swap"
-    rel="stylesheet">
 
-
-  <style>
+    <style>
 
   </style>
-  <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
         <script src="https://www.snhu.edu/assets/SNHU/js/polyfill/respond.min.js"></script>
     <![endif]-->
-  <link rel="stylesheet" type="text/css" href="DateTimePicker.css" />
+    <link rel="stylesheet" type="text/css" href="DateTimePicker.css" />
 
-  <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="DateTimePicker.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="DateTimePicker.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
 
-  <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
    <link rel="stylesheet" type="text/css" href="DateTimePicker-ltie9.css" />
    <script type="text/javascript" src="DateTimePicker-ltie9.js"></script>
   <![endif]-->
+    <!-- FORM: HEAD SECTION -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="referrer" content="no-referrer-when-downgrade">
 
 
-  <!-- FORM: HEAD SECTION -->
+    <link
+      href="https://snhu.tfaforms.net/dist/form-builder/5.0.0/wforms-layout.css?v=dc32c8645b2385d544026180d37a5a70eef875e5"
+      rel="stylesheet" type="text/css" />
 
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="referrer" content="no-referrer-when-downgrade">
-
-
-  <link
-    href="https://snhu.tfaforms.net/dist/form-builder/5.0.0/wforms-layout.css?v=dc32c8645b2385d544026180d37a5a70eef875e5"
-    rel="stylesheet" type="text/css" />
-
-  <link href="https://snhu.tfaforms.net/uploads/themes/theme-31.css" rel="stylesheet" type="text/css" />
-  <link
-    href="https://snhu.tfaforms.net/dist/form-builder/5.0.0/wforms-jsonly.css?v=dc32c8645b2385d544026180d37a5a70eef875e5"
-    rel="alternate stylesheet" title="This stylesheet activated by javascript" type="text/css" />
-  <script type="text/javascript"
-    src="https://snhu.tfaforms.net/wForms/3.11/js/wforms.js?v=dc32c8645b2385d544026180d37a5a70eef875e5"></script>
-  <script type="text/javascript">
+    <link href="https://snhu.tfaforms.net/uploads/themes/theme-31.css"
+      rel="stylesheet" type="text/css" />
+    <link
+      href="https://snhu.tfaforms.net/dist/form-builder/5.0.0/wforms-jsonly.css?v=dc32c8645b2385d544026180d37a5a70eef875e5"
+      rel="alternate stylesheet" title="This stylesheet activated by javascript"
+      type="text/css" />
+    <script type="text/javascript"
+      src="https://snhu.tfaforms.net/wForms/3.11/js/wforms.js?v=dc32c8645b2385d544026180d37a5a70eef875e5"></script>
+    <script type="text/javascript">
     wFORMS.behaviors.prefill.skip = false;
   </script>
-  <script type="text/javascript"
-    src="https://snhu.tfaforms.net/wForms/3.11/js/localization-en_US.js?v=dc32c8645b2385d544026180d37a5a70eef875e5"></script>
-  <script type="text/javascript" async src=https://play.vidyard.com/embed/v4.js></script>
+    <script type="text/javascript"
+      src="https://snhu.tfaforms.net/wForms/3.11/js/localization-en_US.js?v=dc32c8645b2385d544026180d37a5a70eef875e5"></script>
+    <script type="text/javascript" async
+      src=https://play.vidyard.com/embed/v4.js></script>
 
-  <!-- END FORM: HEAD SECTION -->
+    <!-- END FORM: HEAD SECTION -->
 
-</head>
+  </head>
 
 
-<body>
+  <body>
 
-  <!-- Header + Nav -->
 
-  <header>
-    <nav class="navbar navbar-expand-lg p-3">
-      <div class="container">
-        <a class="navbar-brand" href="https://www.snhu.edu/">
-          <img
-            src="https://client-data.knak.io/production/email_assets/5fd10b569d941/Y9PaAR4BN1uvwQSeUR37Jtdwa2YUrN1By1RZIsk8.png"
-            alt="SNHU Logo" height="80">
-        </a>
-        <div class=" justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a href="#" class="nav-link head-link mx-3" target="_blank">Text</a>
-            <a href="#" class="nav-link head-link mx-3 " target="_blank">Call</a>
 
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
 
-  <!---Meet the New SNHU Term Names-->
 
-  <div class="meet-div text-center d-flex justify-content-center align-items-center">
-  </div>
-
-  <!--Accreditation-->
-
-  <div role="region" aria-label="Accreditations" class="container-fluid align-items-center text-center py-5 bg-light accreditation">
-    <img class="col-10 col-xxl-6"
-      src="https://client-data.knak.io/production/email_assets/5fd10b569d941/URLXxrrgwra1n8IolHbmjqoC3cLBsPysUnEDKV6p.png"
-      alt="SNHU accreditation logos" width="100%" height="auto">
-  </div>
-
-  <!--Footer-->
-
-  <footer class="container-fluid" style="background-color: #00244E;">
-    <div class="col-10 d-flex flex-wrap justify-content-between align-items-center px-3 px-md-5 py-5 mx-auto">
-      <p class="col-md-4 lh-lg" style="color:#fff"><strong>SNHU Student Financial Services</strong><br>
-        2500 North River Road, Manchester, NH 03106<br>
-         Phone: 877.455.7648<br>
-         advising@snhu.edu</p>
-      <a href="https://www.snhu.edu/" target="_blank"
-        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+    <section class="sidebar-section col-md-2">
+      <div class="sidebar">
         <img
           src="https://client-data.knak.io/production/email_assets/5fd10b569d941/Y9PaAR4BN1uvwQSeUR37Jtdwa2YUrN1By1RZIsk8.png"
-          height="80" alt="SNHU logo">
-      </a>
-      </a>
-      <p class="col-md-4 justify-content-end lh-lg text-md-end" style="color: #fff;">
-        © 2023<br>
-        Southern New Hampshire University<br>
-        View our <a href="https://www.snhu.edu/privacy-policy" class="text-link">Privacy Policy</a> | <a
-          href="https://www.snhu.edu/about-us/accessibility" class="text-link">Accessibility at SNHU</a>
-      </p>
+          alt="SNHU Logo" height="80" class="mb-3">
+
+          <h2 class="ms-2">Quick Links</h2>
+        <!-- Search input bar with icon -->
+        <ul class="sidebar-nav mt-1">
+          <li><a >SNHU Homepage </a></li>
+          <li class=" ms-3"><a >Affordabiltiy</a></li>
+          <li class=" ms-3"><a >Transfer Credits</a></li>
+          <li class=" ms-3"><a >Military</a></li>
+          <li class=" ms-3"><a >Accreditaion</a></li>
+          <li><a >Student Financial Services </a></li>
+        </ul>
+
+
+      </div>
     </div>
-  </footer>
+
+  </section>
+
+  <section class="video-content mt-5">
+
+    <div style="position: relative;">
+      <i class="search-icon m-2"></i>
+      <input type="text" id="searchInput" class="search-on"
+        oninput="filterData(this.value)"
+        placeholder="🔍 Type to search">
+    </div>
+
+    <div class="mt-5 col-md-12 d-flex justify-content-center input-group"
+      id="buttonContainer">
+      <button type="button" class="btn btn-primary active"
+        onclick="filterData(this.value)" value="Campus Life"> Campus Life
+      </button>
+      <button type="button" class="btn btn-primary"
+        onclick="filterData(this.value)" value="Education"> Education
+      </button>
+      <button type="button" class="btn btn-primary" onclick="filterData(this.value)" value="Campus Life"> Campus Life </button>
+      <button type="button" class="btn btn-primary" onclick="filterData(this.value)" value="Campus Life"> Campus Life </button>
+      <button type="button" class="btn btn-primary" onclick="filterData(this.value)" value="Academic Intergrity"> Academic Intergrity </button>
+      <button type="button" class="btn btn-primary" onclick="filterData(this.value)" value="Campus Life"> Campus Life </button>
+      <button type="button" class="btn btn-primary" onclick="filterData(this.value)" value="Campus Life"> Campus Life </button>
+      <button type="button" class="btn btn-primary" onclick="filterData(this.value)" value="Campus Life"> Campus Life </button>
+      <button type="button" class="btn btn-primary" onclick="filterData(this.value)" value="Campus Life"> Campus Life </button>
+      <button type="button" class="btn btn-primary" onclick="filterData(this.value)" value="Campus Life"> Campus Life </button>
+      <button type="button" class="btn btn-primary" onclick="filterData(this.value)" value="Campus Life"> Campus Life </button>
+      <button type="button" class="btn btn-primary" onclick="filterData(this.value)" value="Campus Life"> Campus Life </button>
+      <button type="button" class="btn btn-primary" onclick="filterData(this.value)" value="Campus Life"> Campus Life </button>
+
+    </div>
+
+    <!----Section 1-->
+    <h2 class="mb-1 mt-4 ">Campus Life</h2>
+    <p class="">14 videos</p>
+    <div class="d-flex overflow-x-scroll" id="videoGallery">
+
+    </div>
+
+
+    <!-- Section 2------------------------ -->
+    <h2 class="mb-1 mt-4 ">Student Experience</h2>
+    <p class="">6 videos</p>
+    <div class="d-flex overflow-x-scroll" id="videoGallery1">
+
+    </div>
+
+
+
+    <!----Section 3-->
+    <h2 class="mb-1 mt-4 ">Types of College Courses</h2>
+    <p class="">6 videos</p>
+    <div class="d-flex overflow-x-scroll" id="videoGallery2">
+
+
+    </div>
+
+  </section>
+
+  <script>
+ // Save the original data for each section
+ let originalData = {
+            section1: [],
+            section2: [],
+            section3: [],
+        };
+
+  // Fetch videos from the JSON file
+  fetch('./resources/JSON/campusVid.json')
+    .then(response => response.json())
+    .then(data => {
+
+      // Save the original data for each section
+      originalData.section1 = data.section1;
+                originalData.section2 = data.section2;
+                originalData.section3 = data.section3;
+      // Loop through videos in section1 and create HTML elements
+      const section1Gallery = document.getElementById('videoGallery');
+      data.section1.forEach(video => {
+        createVideoElement(section1Gallery, video);
+      });
+
+      // Loop through videos in section2 and create HTML elements
+      const section2Gallery = document.getElementById('videoGallery1');
+      data.section2.forEach(video => {
+        createVideoElement(section2Gallery, video);
+      });
+
+       // Loop through videos in section2 and create HTML elements
+       const section3Gallery = document.getElementById('videoGallery2');
+      data.section3.forEach(video => {
+        createVideoElement(section3Gallery, video);
+      });
+      // Initialize Vidyard players after adding elements
+      VidyardPlayerUtil.initialize();
+    })
+    .catch(error => console.error('Error fetching videos:', error));
+
+  function createVideoElement(container, video) {
+    const videoElement = document.createElement('div');
+    videoElement.innerHTML = `
+  
+      <div class="me-2">
+        <iframe class="vidyard_iframe" title="${video.title}" src="${video.src}" width="350" height="200" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen></iframe>
+        <h4 class="text-center">${video.title}</h4>
+        <p class="text-center">${video.description}</p>
+      </div>
+    `;
+    container.appendChild(videoElement);
+    
+    
+  }
+
+  function filterData(searchTerm) {
+            // Filter the data based on the search term
+            // Filter the data based on the search term for each section
+            const filteredData1 = originalData.section1.filter(video =>
+                video.title.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+            const filteredData2 = originalData.section2.filter(video =>
+                video.title.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+            const filteredData3 = originalData.section3.filter(video =>
+                video.title.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+
+            // Clear the current content
+            const container1 = document.getElementById('videoGallery');
+            const container2 = document.getElementById('videoGallery1');
+            const container3 = document.getElementById('videoGallery2');
+            
+            container1.innerHTML = '';
+            container2.innerHTML = '';
+            container3.innerHTML = '';
+
+            filteredData1.forEach(video => {
+                createVideoElement(container1, video);
+            });
+            filteredData2.forEach(video => {
+                createVideoElement(container2, video);
+            });
+            filteredData3.forEach(video => {
+                createVideoElement(container3, video);
+            });
+      
+
+            //Active Buttons
+            var buttons = document.querySelectorAll("#buttonContainer button");
+            buttons.forEach(function(button) {
+              button.classList.remove("active");
+  });
+
+  // Add 'active' class to the clicked button
+  var clickedButton = event.target;
+  clickedButton.classList.add("active");
+
+        }
+</script>

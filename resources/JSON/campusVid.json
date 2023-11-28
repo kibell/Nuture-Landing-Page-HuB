@@ -1,0 +1,45 @@
+{
+  "section1": [
+    {
+      "title": "Campus Life Playlist",
+      "description": "Play All Videos",
+      "src": "//play.vidyard.com/vBiTvehqu6GfS4h4tb4dSN.html?"
+    },
+    {
+      "title": "Get Ready for SNHU!",
+      "description": "Explore the vibrant campus life.",
+      "src": "//play.vidyard.com/BhpsaceuqATiX5eiq8aZpm.html?"
+    },
+    {
+        "title": "Academic Intergrity",
+        "description": "Acting Responsbly and wthically as a student",
+        "src": "//play.vidyard.com/JP3WwFRU3pxhiM7oDPdBbq.html?"
+      },
+
+      {
+        "title": "See yourself at SNHU",
+        "description": "Explore the vibrant campus life.",
+        "src": "//play.vidyard.com/uaF4AmnKyta1C1zyXzXQBe.html?"
+      }
+  ],
+
+  "section2": [
+    {
+      "title": "Campus Life",
+      "description": "Explore the vibrant campus life.",
+      "url": "./resources/images/play.png",
+      "src": "//play.vidyard.com/BhpsaceuqATiX5eiq8aZpm.html?",
+      "data": "BhpsaceuqATiX5eiq8aZpm"
+    }
+  ],
+
+  "section3": [
+    {
+      "title": "Campus Life",
+      "description": "Explore the vibrant campus life.",
+      "url": "./resources/images/play.png",
+      "src": "",
+      "data": ""
+    }
+  ]
+}
