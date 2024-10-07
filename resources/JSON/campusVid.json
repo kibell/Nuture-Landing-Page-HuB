@@ -28,6 +28,20 @@
     },
 
     {
+      "title": "FAFSA Guide",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/68c64fd6-bcb1-4ab3-be9a-42be42c7ee98.png",
+      "href": "https://cloud.dream.snhu.edu/FAFSA-Guide"
+    },
+
+    {
+      "title": "FAFSA",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/d25a3d74-3cd9-4d71-acea-f572795a8c62.png",
+      "href": "https://cloud.dream.snhu.edu/FAFSA"
+    },
+
+    {
       "title": "Financial Aid Offer",
       "description": "Some Text here maybe",
       "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/6795649a-e708-416b-a58f-7267a48d2e8f.png",
