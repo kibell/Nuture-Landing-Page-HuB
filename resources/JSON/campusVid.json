@@ -1,49 +1,115 @@
 {
   "section1": [
+    
     {
-      "title": "Campus Life Playlist",
-      "description": "Play All Videos",
-      "src": "//play.vidyard.com/vBiTvehqu6GfS4h4tb4dSN.html?"
+      "title": "Accepted Next Steps",
+      "description": "Some Text here maybe...",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/30d01e84-f251-48e2-b1e8-82b26989efa3.png",
+      "href":"https://cloud.dream.snhu.edu/acceptance-next-steps" 
     },
     {
-      "title": "Get Ready for SNHU!",
-      "description": "Explore the vibrant campus life.",
-      "src": "//play.vidyard.com/BhpsaceuqATiX5eiq8aZpm.html?"
+      "title": "Amazon Call Scheduler",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/2a66fb59-b6c8-44d2-bf4f-ef61704cf0a3.png",
+      "href":"https://cloud.dream.snhu.edu/amazon-call-scheduler" 
     },
     {
-        "title": "Academic Intergrity",
-        "description": "Acting Responsbly and wthically as a student",
-        "src": "//play.vidyard.com/JP3WwFRU3pxhiM7oDPdBbq.html?"
-      },
-      {
-        "title": "Consumer Discounts",
-        "description": "See the benefits at SNHU",
-        "src": "//play.vidyard.com/xXrBVUiBWxCuFXG3neqKRR.html?"
-      },
+      "title": "Commissionable Degree",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/39f667e4-696f-4c21-9630-e3c51230ff57.png",
+      "href":"https://cloud.dream.snhu.edu/Commissionable-degree-program" 
+    },
 
-      {
-        "title": "See yourself at SNHU",
-        "description": "Explore the vibrant campus life.",
-        "src": "//play.vidyard.com/uaF4AmnKyta1C1zyXzXQBe.html?"
-      }
-  ],
-
-  "section2": [
     {
-      "title": "Campus Life",
-      "description": "Explore the vibrant campus life.",
-      "url": "./resources/images/play.png",
-      "src": "//play.vidyard.com/BhpsaceuqATiX5eiq8aZpm.html?"
-    }
-  ],
+      "title": "FAFSA 101",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/22f46d4f-2a83-42e1-88c7-04a4005ef800.png",
+      "href": "https://cloud.dream.snhu.edu/fafsa-101"
+    },
 
-  "section3": [
     {
-      "title": "Campus Life",
-      "description": "Explore the vibrant campus life.",
-      "url": "./resources/images/play.png",
-      "src": "",
-      "data": ""
+      "title": "Financial Aid Offer",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/6795649a-e708-416b-a58f-7267a48d2e8f.png",
+      "href":"https://cloud.dream.snhu.edu/financial-aid-offer-gc" 
+    },
+
+    {
+      "title": "First Term Success",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/3900639b-2c7f-4d38-8df2-6ec1004afbb4.png",
+      "href":"https://cloud.dream.snhu.edu/first-term-success" 
+    },
+
+    {
+      "title": "Earn your degree",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/e6d363ec-c24b-44c0-9f34-36de3b65a99a.png",
+      "href":"https://cloud.dream.snhu.edu/GR-Learn-More" 
+    },
+
+    {
+      "title": "INQ Call Scheduler",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/2dfd9673-3621-4120-9744-9f51b8e920bb.png",
+      "href":"https://cloud.dream.snhu.edu/inq-call-scheduler" 
+    },
+
+    {
+      "title": "International Accepted",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/ada958db-0355-4316-8780-7882e31e1e43.png",
+      "href":"https://cloud.dream.snhu.edu/international-accepted-steps" 
+    },
+
+    {
+      "title": "Learner Readiness Survey",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/000eed15-2313-4332-af8a-ca02fa436327.png",
+      "href":"https://cloud.dream.snhu.edu/learner-readiness-survey" 
+    },
+
+    {
+      "title": "Pre-Orientation",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/84556543-7b3d-4bf5-89af-c8b8a363a7f9.png",
+      "href":"https://cloud.dream.snhu.edu/pre-orientation" 
+    },
+    {
+      "title": "SFS Resources",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/41698f51-9db1-4f4b-8429-1f7e6decb70a.png",
+      "href":"https://cloud.dream.snhu.edu/sfs-resources" 
+    },
+    {
+      "title": "UC Viewbook",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/0aaaae60-7355-447c-8e94-2cd341ee6970.png",
+      "href":"https://cloud.dream.snhu.edu/oneofus" 
+    },
+    {
+      "title": "Development Guide",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/f799fc4a-2835-464b-98c2-f81444933f4f.png",
+      "href":"https://snhu-nuture-project.github.io/official_nuture_guide/" 
+    },
+    {
+      "title": "Campus Events",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/bcdc3159-4c4b-410d-b10a-923c26b7dcc4.png",
+      "href":"https://cloud.dream.snhu.edu/campus-event-listing-directory" 
+    },
+    {
+      "title": "Your Degree Matters",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/bfde8dfb-bfd4-4994-b49d-b4ac209e3d24.png",
+      "href":"https://cloud.dream.snhu.edu/your-degree-matters" 
+    },
+    {
+      "title": "What Kind of Equipment",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/7f7e8459-4f0d-4468-bfc3-b55ae6ef0adb.png",
+      "href":"https://cloud.dream.snhu.edu/what-kind-of-computer" 
     }
   ]
 }

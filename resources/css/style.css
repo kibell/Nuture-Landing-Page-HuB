@@ -300,13 +300,6 @@ a {
 /* 36px */
 /* 40px  h1 tag* /
 $font-size-7xl: 4rem; /*64px */
-.card-header {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #0a3370;
-  font-family: "Open Sans", sans-serif;
-}
-
 .list-group-item {
   border: none;
 }
@@ -503,11 +496,6 @@ body {
   list-style: none;
 }
 
-.video-content {
-  margin-left: 18rem; /* Adjust the margin to match the width of your sidebar */
-  padding: 20px; /* Add some padding to separate content from the sidebar */
-}
-
 .sidebar-nav li a {
   color: #fff !important;
   text-decoration: none;
@@ -550,4 +538,22 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #0a3370; /* Set the color of the scrollbar thumb on hover */
+}
+
+.sm-font {
+  font-size: 0.8rem;
+}
+
+.card-header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.card-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 }/*# sourceMappingURL=style.css.map */
