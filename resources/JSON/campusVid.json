@@ -124,6 +124,31 @@
       "description": "Some Text here maybe",
       "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/7f7e8459-4f0d-4468-bfc3-b55ae6ef0adb.png",
       "href":"https://cloud.dream.snhu.edu/what-kind-of-computer" 
+    },
+    {
+      "title": "App in Progress",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/b4c5272a-e975-4580-9df8-453b30bc2824.png",
+      "href":"https://cloud.dream.snhu.edu/your-application?OppID=0063l00000rjY60AAE&SFID=0033l00002y2TjFAAU" 
+    },
+    {
+      "title": "International I-20",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/1fd6e003-f75f-495a-8ca8-8ede68060f50.png",
+      "href":"https://cloud.dream.snhu.edu/accepted-i-20" 
+    },
+    {
+      "title": "FAFSA Answers",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/b3a87531-1d1d-4565-87c8-3aa0e25cd6e5.png",
+      "href":"https://cloud.dream.snhu.edu/fafsa-answers" 
+    },
+    {
+      "title": "SNHU Year end Review",
+      "description": "Some Text here maybe",
+      "src": "https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/d3b5d418-0698-45c4-a51e-1de09a87b383.png",
+      "href":"https://cloud.dream.snhu.edu/SNHU-Year-In-Review?utm_medium=email&utm_source=SFMC&utm_campaign=Remarketing&utm_content=em195855&sfid=0033l000037WZpFAAW&utm_source=sfmc&utm_term=&utm_content=454257&utm_id=dc7c332a-53e8-4ab8-a623-15b9da3affe1&sfmc_activityid=e856fe44-3458-485d-8a2f-2d7fd79c4453&utm_medium=email&sfmc_journey_id=dc7c332a-53e8-4ab8-a623-15b9da3affe1&sfmc_journey_name=BJA--VRGGUY-ae_rnIR_veei-w02422103&sfmc_activity_id=e856fe44-3458-485d-8a2f-2d7fd79c4453&sfmc_activity_name=MEA--VRGGUY-ae_rnIR_veei-w02422103&sfmc_asset_id=454257&sfmc_channel=email" 
     }
+
   ]
 }
