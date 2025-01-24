@@ -556,4 +556,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.card-img-top {
+  border-radius: 0;
 }/*# sourceMappingURL=style.css.map */
